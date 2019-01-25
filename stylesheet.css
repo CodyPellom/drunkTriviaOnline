@@ -1,0 +1,100 @@
+html {
+    width: 100%;
+    height: 120vh;
+    background: url('https://lh3.googleusercontent.com/iB-JeR1VTI3a2B8Yh8MKbhHOnDX1TiPMncvmph1_mIEZ5nizHr7_xpoB42gx83VZZjKPIp8huNi-KC7wwShdbhhnqOk2ZPx71zGnsHfK0wPcKNJ-4XE6WWPoqXwvt9Z9o6g27RU1U4pdpnFGTWvlsbmZWpiOffB-Nz0-Hgc9Gnr3aWRdPrgGOfhM1XHfsUgPGSKQoSMIQG1SOm6NpDPTGZamNTXWYTo9Tn050pZpyzDrZwS9UunMm9cjNlV6Ht_2XSCzRK1qlKtjBnazZfop554QlnfP8rnYTl0aa_yFQziAP2zWswJdo42LJdzcALfITeeNJwR2xiAV4hNVj4K5nBVNBggM8eWVE2QlrSJ3RYkgiLEa1QspqV2nbe9WBbtfV0JiDLZWi_9J_-PRMh3EsO6fEn6FWdJh-g5uMpU-9syytpTo-KyanaFUDBAdaRSvt70AVVeAi5u2BxCShuTaE34M2B7HwcDBM_5CgDx29Pgci-hwxM6wyutQjOC0rtUoo-iBYlUA6LYswcSAImgtpQP-qTz7irvlsL5JtBlRMyvXYJe1qd3ST2GDGHg9C7jU0jhA6skThrdTunwgVfsJAxmzGxGh08lOhG4IGTM5NS8bKRsnfkFX7dWpLbnI8Lid4iacHs5KWu9Cb48foofHABP9=w1048-h589-no');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-y: center;
+    background-position-x: center;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    -webkit-animation-delay: 0.1s;
+    -webkit-animation-name: fontfix;
+    -webkit-animation-duration: 0.1s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+}
+
+#barba-wrapper {
+    -webkit-animation-delay: 0.1s;
+    -webkit-animation-name: fontfix;
+    -webkit-animation-duration: 0.1s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes fontfix {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+/* Crete+Round|Monoton|Playball */
+#flexerColumn {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+.headers {
+    font-family: 'Playball';
+    font-size: 10vh;
+    text-align: center;
+}
+.descriptors {
+    font-family: 'Crete Round';
+    font-size: 5vh;
+    text-align: center;
+}
+#introDescript {
+    margin-top: -2vh;
+}
+#introSinglePlayerButton {
+    width: 20vh;
+    height: 10vh;
+    font-family: 'Playball';
+    font-size: 3vh;
+}
+#introMultiPlayerButton {
+    width: 20vh;
+    height: 10vh;
+    font-family: 'Playball';
+    font-size: 3vh;
+}
+#buttonDiv {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+    align-content: center;
+    margin-top: 15vh;
+    
+}
+#introFooter {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+    align-content: center;
+    margin-top: 20vh;
+    
+}
+#footerMainText {
+font-family: 'Playball';
+font-size: 3vh;
+color: white;
+}
